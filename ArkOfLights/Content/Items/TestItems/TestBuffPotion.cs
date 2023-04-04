@@ -24,7 +24,7 @@ namespace ArkOfLights.Content.Items.TestItems
             Item.maxStack = 20;
             Item.consumable = true;
             Item.rare = -12;
-            Item.buffType = ModContent.BuffType<Content.Buffs.Frostburn>();
+            Item.buffType = ModContent.BuffType<Content.Buffs.Hexxed>();
             Item.buffTime = 300;
         }
     }
