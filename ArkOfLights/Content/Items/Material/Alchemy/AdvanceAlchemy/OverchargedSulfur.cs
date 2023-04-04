@@ -28,7 +28,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.AdvanceAlchemy
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.ChargedPowder>(2);
-            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(1);
+            recipe.AddIngredient<Items.Material.Alchemy.EarlyAlchemy.Sulfur>(20);
             recipe.AddTile<Tiles.Furniture.CraftingStation.AlchemicalTable>();
             recipe.Register();
         }
