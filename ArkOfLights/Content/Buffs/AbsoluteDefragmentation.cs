@@ -10,7 +10,7 @@ namespace ArkOfLights.Content.Buffs
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Absolute Defragmentation");
-            Description.SetDefault("Fatal");
+            Description.SetDefault("Fataly reduces your defense while also shredding you into bits");
             Main.debuff[Type] = true;
             Main.pvpBuff[Type] = true;
             Main.buffNoSave[Type] = true;
