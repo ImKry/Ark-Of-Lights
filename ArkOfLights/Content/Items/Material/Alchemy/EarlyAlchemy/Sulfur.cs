@@ -12,7 +12,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("The most basic form of Alchemy\nExtremely Toxic and Flameable\nCould probably be use as fuel\n[c/F4F4F4:Common Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
         }
 
         public override void SetDefaults()
@@ -20,7 +20,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
             Item.width = 64;
             Item.height = 48;
 
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.value = Item.sellPrice(silver: 3);
         }
 
