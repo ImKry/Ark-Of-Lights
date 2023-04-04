@@ -21,7 +21,7 @@ namespace ArkOfLights.Content.Items.Material
             Item.width = 40;
             Item.height = 40;
             Item.rare = ItemRarityID.Purple;
-            Item.maxStack = 999;
+            Item.maxStack = 99;
             Item.value = Item.sellPrice(gold: 10);
         }
 
