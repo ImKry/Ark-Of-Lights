@@ -18,7 +18,7 @@ namespace ArkOfLights.Content.Items.Placeables.Bars
         
         public override void SetDefaults()
         {
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
             ItemID.Sets.SortingPriorityMaterials[Item.type] = 59;
             Item.maxStack = 999;
             Item.rare = ItemRarityID.Blue;
