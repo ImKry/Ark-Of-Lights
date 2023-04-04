@@ -12,7 +12,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
         public override void SetStaticDefaults()
         {
             Tooltip.SetDefault("Burnt Wood\n[c/F4F4F4:Common Material]");
-            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 99;
+            CreativeItemSacrificesCatalog.Instance.SacrificeCountNeededByItemId[Type] = 999;
         }
 
         public override void SetDefaults()
@@ -21,7 +21,7 @@ namespace ArkOfLights.Content.Items.Material.Alchemy.EarlyAlchemy
             Item.height = 32;
             Item.rare = 1;
 
-            Item.maxStack = 99;
+            Item.maxStack = 999;
             Item.value = Item.sellPrice(silver: 1);
         }
 
